@@ -33,9 +33,15 @@
 		background-color: var(--dark-blue, #2F324B);
 		padding: 25px 0;
 	}
+
+	.footer__copyright {
+		font-size: 8px;
+	}
+
 	.footer__item-developer {
 		display: none;
 	}
+
 	.footer-bottom {
 		display: block;
 		background-color: var(--dark-grey, #2A2C3F);
