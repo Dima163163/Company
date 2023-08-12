@@ -1,0 +1,40 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	color: var(--white, #FFF);
+	text-align: center;
+	font-family: Roboto;
+	font-size: 23.85px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.contact__phone-link {
+	display: block;
+}
+
+.contact__phone-link-text {
+	display: block;
+	color: var(--white, #FFF);
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+@media (max-width: 320px) {
+	.contact {
+		content: '';
+		background-image: url('../img/Phone.svg');
+		width: 24px;
+		height: 24px;
+	}
+	
+	.contact__phone-link {
+		display: none;
+	}
+
+	.contact__phone-link-text {
+		display: none;
+	}
+}
