@@ -154,8 +154,8 @@
 		justify-content: start;
 	}
 
-	.slider {
-		position: relative;
+	.advantages__item  {
+		min-width: 46%;
 	}
 
 	.advantages-slider {
@@ -170,6 +170,12 @@
 		display: block;
 	}
 
+}
+
+@media (max-width: 640px) {
+	.advantages__item {
+		min-width: 40%;
+	}
 }
 
 @media (max-width: 480px) {
