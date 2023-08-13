@@ -201,4 +201,9 @@
 		font-size: 12px;
 	}
 
+	.advantages__subtitle::before,
+	.advantages__subtitle::after {
+    width: 19px;
+    height: 1px;
+	}
 }
