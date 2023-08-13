@@ -173,7 +173,6 @@
 }
 
 @media (max-width: 480px) {
-
 		.advantages__item {
 		min-width: 100%;
 	}
@@ -194,10 +193,6 @@
 
 	.advantages__text {
 		font-size: 12px;
-	}
-
-	.advantages__item {
-		min-width: 100%;
 	}
 
 }
