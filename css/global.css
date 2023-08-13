@@ -130,7 +130,7 @@ iframe {
 		font-size: 18px;
 	}
 
-	br {
+	br:not(:last-child) {
 		display: none;
 	}
 }

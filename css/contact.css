@@ -26,10 +26,11 @@
 	.contact {
 		content: '';
 		background-image: url('../img/Phone.svg');
-		width: 24px;
-		height: 24px;
+		background-repeat: no-repeat;
+		width: 25px;
+		height: 25px;
 	}
-	
+
 	.contact__phone-link {
 		display: none;
 	}
