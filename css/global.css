@@ -125,4 +125,12 @@ iframe {
 		width: 30px;
 		height: 30px;
 	}
+
+	.button {
+		font-size: 18px;
+	}
+
+	br {
+		display: none;
+	}
 }

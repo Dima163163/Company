@@ -85,6 +85,7 @@
 
 	.questions__subtitle {
 		margin-bottom: 35px;
+		font-size: 12px;
 	}
 
 	.questions__form {
@@ -94,5 +95,12 @@
 	.questions__btn {
     padding: 10px 26px;
     margin-bottom: 30px;
-}
+		min-width: 174px;
+		font-size: 16px;
+	}
+
+	.questions__agreement {
+		font-size: 11px;
+	}
+
 }
