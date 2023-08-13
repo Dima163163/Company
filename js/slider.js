@@ -1,25 +1,30 @@
-$(document).ready(function(){
-  $('.slider').slick({
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		nextArrow: '<div class="sprite-next"></div>',
-		prevArrow: '<div class="sprite-prev"></div>',
-		responsive: [
-    {
-			breakpoint: 640,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-      },
-      breakpoint: 480,
-      settings: {
-				centerMode: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-				centerPaging: 80,
-      }
-	}]
-	});
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+	slidesPerView: 4,
+  spaceBetween: 10,
+	loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.advantages-button-next',
+    prevEl: '.advantages-button-prev',
+  },
+	breakpoints: {
+		960: {
+      slidesPerView: 3,
+			spaceBetween: 50
+    },
+		640: {
+      slidesPerView: 3,
+			spaceBetween: 20
+    },
+		480: {
+      slidesPerView: 1,
+			spaceBetween: 80
+    },
+		320: {
+      slidesPerView: 1,
+			spaceBetween: 45
+    },
+  }
 });
