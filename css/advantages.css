@@ -6,7 +6,7 @@
 
 .advantages__title {
 	color: var(--black-blue, #383A4C);
-	margin-bottom: 25px;
+	margin-bottom: 28px;
 }
 
 .advantages__subtitle {
@@ -15,7 +15,7 @@
 	justify-content: center;
 	gap: 23px;
 	color: var(--black-blue, #383A4C);
-	margin-bottom: 35px;
+	margin-bottom: 32px;
 }
 
 .advantages__subtitle::before,
@@ -34,7 +34,7 @@
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 140.625%;
-	margin-bottom: 50px;
+	margin-bottom: 58px;
 }
 
 .advantages-slider {
@@ -45,6 +45,8 @@
 .advantages__list {
 	display: flex;
 	justify-content: center;
+	margin: 0 auto;
+	gap: 62px;
 }
 
 .advantages__item {
@@ -52,7 +54,13 @@
 	flex-direction: column;
 	align-items: center;
 	flex-basis: 184px;
+	margin-right: 36px;
 }
+
+.advantages__item {
+	margin-right: 0px !important;
+}
+
 .advantages__item-text {
 	color: var(--black-blue, #383A4C);
 	font-size: 20px;
@@ -71,7 +79,8 @@
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
-	font-size: 57px;
+	font-size: 56px;
+	font-weight: 500;
 	color: var(--white, #FFF);
 	line-height: 100%;
 	margin-bottom: 16px;
@@ -124,12 +133,24 @@
 }
 
 @media (max-width: 1024px) {
+	.advantages-wrapper {
+		padding-bottom: 74px;
+	}
+
 	.advantages__title {
-		margin-bottom: 23px;
+		max-width: 812px;
+    margin: 0 auto 23px;
 	}
 
 	.advantages__subtitle {
-		margin-bottom: 33px;
+		margin-bottom: 30px;
+		gap: 21px;
+	}
+
+	.advantages__text {
+		max-width: 666px;
+    font-size: 16px;
+		margin-bottom: 61px;
 	}
 
 	.advantages__item {
@@ -140,6 +161,15 @@
 		width: 104px;
 		height: 104px;
 		font-size: 52px;
+		margin-bottom: 26px;
+	}
+
+	.advantages__list {
+		gap: 46px;
+	}
+
+	.advantages__item-text {
+		font-size: 18px;
 	}
 }
 
@@ -182,28 +212,41 @@
 		.advantages__item {
 		min-width: 100%;
 	}
-
 }
 
 @media (max-width: 320px) {
 	.advantages-wrapper {
-		padding: 30px 0 60px;
+		padding: 30px 1px 63px;
 	}
 	.advantages__title {
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 
 	.advantages__subtitle {
 		margin-bottom: 26px;
+		gap: 27px;
 	}
 
 	.advantages__text {
 		font-size: 12px;
+		margin-bottom: 42px;
 	}
 
 	.advantages__subtitle::before,
 	.advantages__subtitle::after {
-    width: 19px;
+    width: 20px;
     height: 1px;
+	}
+
+	.advantages-button-prev {
+		top: 28%;
+	}
+
+	.advantages-button-next {
+		top: 31%;
+	}
+
+	.advantages__item::before {
+    margin-bottom: 25px;
 	}
 }

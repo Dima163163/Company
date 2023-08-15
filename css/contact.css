@@ -1,11 +1,10 @@
 .contact {
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 	gap: 3px;
 	color: var(--white, #FFF);
-	text-align: center;
 	font-family: Roboto;
-	font-size: 23.85px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -13,13 +12,30 @@
 
 .contact__phone-link {
 	display: block;
+	font-size: 24px;
 }
 
 .contact__phone-link-text {
-	display: block;
+	display: inline-block;
 	color: var(--white, #FFF);
-	text-decoration: underline;
+	border-bottom: 1px solid var(--white, #FFF);
 	font-size: 16px;
+	padding-bottom: 2px;
+}
+
+@media (max-width: 1024px) {
+	.contact {
+		gap: 6px
+	}
+
+	.contact__phone-link {
+		font-size: 21px;
+	}
+
+	.contact__phone-link-text {
+		font-size: 13px;
+	}
+
 }
 
 @media (max-width: 320px) {

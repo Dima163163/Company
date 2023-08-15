@@ -95,6 +95,11 @@ iframe {
 }
 
 @media (max-width: 1024px) {
+	.logo {
+		width: 62px;
+		height: 62px;
+	}
+
 	.container {
 		max-width: 1024px;
 	}
@@ -105,6 +110,10 @@ iframe {
 
 	.subtitle {
 		font-size: 20px;
+	}
+
+	br:not(.footer__br) {
+		display: none;
 	}
 }
 
@@ -128,9 +137,5 @@ iframe {
 
 	.button {
 		font-size: 18px;
-	}
-
-	br:not(:last-child) {
-		display: none;
 	}
 }

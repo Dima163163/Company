@@ -16,6 +16,7 @@
 .questions__title {
 	color: var(--white, #FFF);
 	margin-bottom: 17px;
+	margin-right: 30px;
 }
 
 .questions__subtitle {
@@ -46,18 +47,18 @@
 	margin-bottom: 21px;
 }
 
-.questions__input:nth-child(3) {
+.questions__input-bottom {
 	margin-bottom: 50px;
 }
 
 .questions__btn {
-	padding: 11px 38px;
+	padding: 12px 38px;
 	margin-bottom: 50px;
 }
 
 .questions__agreement {
 	color: var(--white ,#FFF);
-	font-size: 17px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -69,8 +70,34 @@
 }
 
 @media (max-width: 1024px) {
+	.questions {
+		padding-bottom: 56px;
+	}
+
+	.questions__title  {
+		margin-right: 0;
+	}
+
+	.questions__subtitle {
+		margin-left: 18px;
+		margin-bottom: 44px;
+	}
+
 	.questions__input {
-		max-width: 377px;
+		max-width: 380px;
+		margin-bottom: 15px;
+	}
+
+	.questions__input-bottom {
+		margin-bottom: 46px;
+	}
+
+	.questions__btn {
+    margin-bottom: 30px;
+	}
+
+	.questions__agreement {
+    font-size: 17px;
 	}
 }
 
@@ -79,13 +106,15 @@
 	.questions {
     padding: 30px 0;
 	}
+	
 	.questions__title {
-		margin-bottom: 11px;
+		margin-bottom: 12px;
 	}
 
 	.questions__subtitle {
 		margin-bottom: 35px;
 		font-size: 12px;
+		margin-left: 0;
 	}
 
 	.questions__form {
@@ -101,11 +130,21 @@
 
 	.questions__agreement {
 		font-size: 11px;
+		text-align: center;
 	}
 
 	.questions__input {
 		font-size: 14px;
 		padding: 6px 18px;
+		height: 30px;
+		margin-bottom: 12px;
 	}
 
+	.questions__input-bottom {
+		margin-bottom: 44px;
+	}
+
+	.footer__item {
+		gap: 22px;
+	}
 }

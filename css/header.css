@@ -16,7 +16,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 120px;
+	margin-bottom: 116px;
 }
 
 .header-content {
@@ -41,8 +41,8 @@
 	font-size: 22px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 140.625%;
-	margin-bottom: 90px;
+	line-height: 140%;
+	margin-bottom: 88px;
 }
 
 .header-content__btn {
@@ -54,10 +54,20 @@
 		padding: 26px 0 70px;
 	}
 
+	.header-top {
+    margin-bottom: 70px;
+	}
+
+	.header-content {
+		max-width: 760px;
+		margin: 0 auto;
+	}
+
 	.header-content__title {
 		font-size: 40px;
 		margin-bottom: 27px;
 	}
+
 	.header-content__text {
 		font-size: 18px;
 		margin-bottom: 60px;
@@ -80,11 +90,12 @@
 
 	.header-content__text {
 		font-size: 14px;
-		margin-bottom: 54px;
+		margin-bottom: 18px;
 	}
 
-	.header-content__btn {
+	.button.header-content__btn {
 		padding: 9px 28px;
 		min-width: 160px;
+		font-size: 16px;
 	}
 }
