@@ -1,7 +1,6 @@
 const swiper = new Swiper('.swiper', {
   // Optional parameters
 	slidesPerView: 4,
-  spaceBetween: 80,
 	loop: true,
 
   // Navigation arrows
@@ -23,6 +22,10 @@ const swiper = new Swiper('.swiper', {
 			spaceBetween: 40
     },
 		960: {
+      slidesPerView: 2,
+			spaceBetween: 46
+    },
+		1220: {
       slidesPerView: 2,
 			spaceBetween: 50
     },

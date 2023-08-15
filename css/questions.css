@@ -75,7 +75,7 @@
 	}
 
 	.questions__title  {
-		margin-right: 0;
+		margin-right: 8px;
 	}
 
 	.questions__subtitle {
@@ -106,7 +106,7 @@
 	.questions {
     padding: 30px 0;
 	}
-	
+
 	.questions__title {
 		margin-bottom: 12px;
 	}
